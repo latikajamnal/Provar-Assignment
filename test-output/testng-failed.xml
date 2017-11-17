@@ -5,12 +5,7 @@
     <classes>
       <class name="provarTest.TestCase">
         <methods>
-          <include name="Scenario3"/>
-          <include name="Scenario1"/>
-          <include name="Scenario2"/>
-          <include name="Scenario4"/>
-          <include name="Quit"/>
-          <include name="Scenario5"/>
+          <include name="Scenario10"/>
           <include name="Initial"/>
         </methods>
       </class> <!-- provarTest.TestCase -->

@@ -1,6 +1,5 @@
 package provarAssignment;
 
-import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 
 public class HomePage
@@ -14,12 +13,25 @@ public class HomePage
 	
 	public void clickContactsTab()
 	{
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.findElement(ObjectRepository.contacts).click();
+	}
+	
+	public void clickContactsTabLight()
+	{
+		driver.findElement(ObjectRepository.contactsLight).click();
 	}
 	
 	public void clickVFTab()
 	{
 		driver.findElement(ObjectRepository.vF).click();
+	}
+	
+	public void clickAppLaucherLight()
+	{
+		driver.findElement(ObjectRepository.appLauncherLight).click();
+	}
+	public void clickVFTabLight()
+	{
+		driver.findElement(ObjectRepository.vFLight).click();
 	}
 }
